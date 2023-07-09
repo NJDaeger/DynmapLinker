@@ -1,0 +1,13 @@
+settings:
+  threadCount: 16
+  frame:
+    tileSize: 128
+    zoomLevel: 0
+    chunkX_topLeft: -80
+    chunkZ_topLeft: -40
+    chunkX_bottomRight: 100
+    chunkZ_bottomRight: 60
+  map:
+    baseUrl: https://map.greenfieldmc.net
+    world: world
+    map: flat
