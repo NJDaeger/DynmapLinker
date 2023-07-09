@@ -22,7 +22,9 @@ public class LinkerSettings {
                 if (is == null) throw new RuntimeException("Could not find settings.yml in the jar file");
                 Files.copy(is, Path.of(folder + "/settings.yml"));
             }
-            throw new RuntimeException("settings.yml was not found. A default one has been created. Please edit it and restart the program.");
+            System.out.println("settings.yml was not found. A default one has been created. Please edit it and restart the program.");
+            System.out.println("Exiting.");
+            System.exit(0);
         }
 
         var yml = new Yaml();

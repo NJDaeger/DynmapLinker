@@ -21,7 +21,8 @@ public class Main {
         } catch (IOException e) {
 
         }
-        System.out.println("Saved image, exiting.");
+        System.out.println("Saved image.");
+        System.out.println("Exiting.");
     }
 
 }
